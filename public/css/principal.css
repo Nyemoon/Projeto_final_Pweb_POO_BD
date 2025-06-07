@@ -11,7 +11,7 @@ html, body {
   height: 100vh;
 }
 #tela-inicial {
-  background-image: url("/img/Captura de tela_1-5-2025_214923_www.pixilart.com.jpeg");
+  background-image: url("/img/Captura de tela_1-5-2025_214923_www.pixilart.com (1).jpeg");
   background-size: cover;       /* faz a imagem cobrir tudo */
   background-position: center;  /* centraliza a imagem */
 
@@ -25,7 +25,7 @@ h1 {
   margin-bottom: 30px;
 }
 #tela-principal {
-  background-image: url("/img/fundo_caatinga.png");
+  background-image: url("/img/fundo_caatinga (1).png");
   background-size: cover;        /* faz a imagem cobrir tudo */
   background-position: center;   /* centraliza a imagem */
   background-repeat: no-repeat;  /* evita repetição */
@@ -84,7 +84,7 @@ h1 {
   border-radius: 16px;
   box-shadow: 0 0 10px rgba(99, 96, 96, 0.4);
   }
-.login-container {
+.login-container{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -96,7 +96,7 @@ h1 {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   position: absolute;
-  top: 10%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -105,20 +105,21 @@ form {
   flex-direction: column;
   width: 90%;
 }
-input{
+input, select{
   padding: 10px;
   margin: 5px 0;
   border: 1px solid #ccc;
   border-radius: 5px;
 }
 label {
+  margin-bottom: 7px;
   text-align: left;
   margin-top: 10px;
 }
 h2, label{
   font-family:'Courier New', Courier, monospace;
 }
-.button-login{
+.button-login, .button-continue{
   width: 100px;
   margin-top: 20px;
   background-color: black;
